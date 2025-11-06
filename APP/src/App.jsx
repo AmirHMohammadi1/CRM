@@ -9,7 +9,7 @@ function App() {
   const router = useRoutes(routes)
 
   return (
-    <div className='app' >
+    <div className='app' style={{ fontFamily: 'Vazir, sans-serif', direction: 'rtl' }} >
       <div className='app-container d-flex'>
 
         <div className='app-right'>

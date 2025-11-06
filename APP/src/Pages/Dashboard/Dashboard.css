@@ -4,6 +4,10 @@
 .dashboard__bottom{
 
 }
+
+.dashboard__main{
+    gap: 10px;
+}
 .dashboard__bottom--project{
     display: flex;
     justify-content: space-between;
@@ -12,3 +16,4 @@
 .dashboard__bottom--stream{
 
 }
+

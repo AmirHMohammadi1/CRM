@@ -13,9 +13,10 @@ export default function NearestEvents() {
         { id: 2, title: 'تولد انا', time: 6, color: '#DE92EB' },
         { id: 3, title: 'بازدید', time: 17, color: '#DE92EB'},
         { id: 4, title: 'فوتبال', time: 22, color: '#DE92EB' },
+        { id: 4, title: 'فوتبال', time: 22, color: '#DE92EB' },
     ]
     return (
-        <div className='nearestEvents col-3-5'>
+        <div className='nearestEvents col-6'>
 
             <div className='nearestEvents__header d-flex justify-content-between align-items-center'>
                 <div className='nearestEvents__header--title'>
@@ -39,6 +40,7 @@ export default function NearestEvents() {
                         
                 )
                 )}
+                
             </div>
 
         </div>
