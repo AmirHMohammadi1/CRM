@@ -1,0 +1,53 @@
+.nearestEvents{
+    background-color: white;
+    border-radius: 15px;
+    margin: 5px 0 5px 0;
+    padding: 5px;
+    
+
+}
+.nearestEvents__event{
+    margin-top: 20px;
+}
+
+.nearestEvents {
+    height: 100%;
+}
+
+.nearestEvents__event {
+    height: 100%;
+    max-height: 400px; /* یا ارتفاع مورد نظر شما */
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* فاصله بین ایونت‌ها */
+}
+
+/* برای نمایش فقط 3 ایونت اول بدون اسکرول و بقیه با اسکرول */
+.nearestEvents__event {
+    max-height: 400px;
+    overflow-y: hidden;
+}
+
+.nearestEvents__event:hover {
+    overflow-y: auto;
+}
+
+/* استایل‌دهی اسکرول بار */
+.nearestEvents__event::-webkit-scrollbar {
+    width: 6px;
+}
+
+.nearestEvents__event::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+.nearestEvents__event::-webkit-scrollbar-thumb {
+    background: #c1c1c1;
+    border-radius: 10px;
+}
+
+.nearestEvents__event::-webkit-scrollbar-thumb:hover {
+    background: #a8a8a8;
+}

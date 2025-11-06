@@ -1,0 +1,26 @@
+.DashboardHeader__nam{
+
+}
+.DashboardHeader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+}
+.dashboardHeader__right{
+
+}
+.dashboardHeader__right-title{
+
+}
+.dashboardHeader__left{
+   background-color: rgba(230, 237, 245, 1);
+   width: 280px;
+   height: 48px;
+   border-radius: 15px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: #0A1629;
+   gap: 10px;
+}

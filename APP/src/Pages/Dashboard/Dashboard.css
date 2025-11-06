@@ -1,0 +1,19 @@
+.dashboard{
+    padding: 5px;
+}
+.dashboard__bottom{
+
+}
+
+.dashboard__main{
+    gap: 10px;
+}
+.dashboard__bottom--project{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.dashboard__bottom--stream{
+
+}
+

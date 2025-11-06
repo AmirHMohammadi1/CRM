@@ -1,0 +1,33 @@
+body {
+  background-color: #f2f2f2;
+
+}
+
+.app {
+  width: 99%;
+  height: 100%;
+ 
+  margin: 5px;
+}
+
+.app-container {
+
+  gap: 5px;
+}
+
+.app-left {
+  flex-direction: column;
+  margin-right: 10px;
+  width: 87.5%;
+  height: 100%;
+}
+
+.app-right {
+
+  width: 12.5%;
+  height: 100%;
+}
+
+.col-3-5{
+  width: 29.16666667% !important;
+}
